@@ -24,7 +24,7 @@ class WorkPolicy
     /**
      * Determine whether the user can view the model.
      */
-    public function view(User $user, Work $work): bool
+    public function view(?User $user, Work $work): bool
     {
         return true;
     }
